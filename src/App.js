@@ -1,5 +1,5 @@
 import "./App.css";
-import Weather from "./Weather.js";
+import Weather from "./weather.js";
 import React from "react";
 
 export default function App() {
@@ -10,7 +10,11 @@ export default function App() {
           <Weather defaultCity="Pontevedra" />
           <footer>
             Open Source-Code by{" "}
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/gemsrc/weatherapp-react"
+              target="_blank"
+              rel="noreferrer"
+            >
               Gemma Sorce
             </a>
           </footer>
